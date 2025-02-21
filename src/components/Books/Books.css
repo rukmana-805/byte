@@ -1,0 +1,86 @@
+.books-recomendation{
+    width: 100%;
+}
+.books{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.books h4{
+    font-weight: 700;
+}
+.books-recomendation h1{
+    text-align: center;
+    font-weight: bold;
+    margin: 80px 0px 30px 0px;
+}
+.book-img-div{
+    width: 250px;
+}
+.books img{
+    width: 260px;
+}
+.books p{
+    margin: 10px 5px;
+    font-weight: 500;
+}
+.book-dsa{
+    background-color: #34574d;
+    width: 260px;
+    border-radius: 20px;
+    color: white;
+}
+.book-c{
+    width: 260px;
+    background-color: #7752ac;
+    color: white;
+    border-radius: 20px;
+}
+.book-javascript{
+    width: 260px;
+    background-color: #d41849;
+    border-radius: 20px;
+    color: white;
+}
+.book-ai{
+    width: 260px;
+    background-color: #f67430;
+    border-radius: 20px;
+    color: white;
+}
+.book-desc{
+    padding: 20px 10px;
+}
+.download-book{
+    display: flex;
+    justify-content: center;
+}
+.download-book button{
+    border: none;
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom:7px ;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.download-book button:hover{
+    background-color: #72bcb8;
+}
+.see-all-books{
+    margin: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+.see-all-books button{
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #000000;
+    font-weight: bold;
+    border: none;
+}
+.book-img-div{
+    width: 260px;
+    overflow: hidden;
+}

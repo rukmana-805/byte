@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.logo-div{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.logo-div img{
+    height: 60px;
+}
+.middle,.left,.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+.middle ul li{
+    border-bottom: 2px solid transparent; /* Keeps space for the border */
+    transition: border-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+.right-contain {
+    display: flex;
+    gap: 50px;
+}
+.right-contain button{
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid #41b452;
+    border-radius: 40px;
+}
+.active{
+    border-bottom: 2px solid #41b452 !important;
+    /* border-color: #41b452; */
+}

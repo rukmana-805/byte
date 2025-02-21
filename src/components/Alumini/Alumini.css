@@ -1,0 +1,51 @@
+.anumini{
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+.bhu-alumini{
+    display: flex;
+    justify-content: space-around;
+}
+.alumini-person{
+    width: 350px;
+    background-color: rgb(253, 253, 237);
+    padding: 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+}
+.alumini-heading{
+    text-align: center;
+    margin: 70px 0px 90px 0px;
+    font-weight: bold;
+}
+.alumini-img{
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(252, 175, 32);
+    transform: translate(60%,-50%);
+    
+}
+.alumini-img img{
+    height: 145px;
+}
+.alumini-person p{
+    font-weight: 500;
+}
+.name-alumini{
+    text-align: center;
+    margin-top: 80px;
+}
+.name-alumini h5{
+    font-weight: bold;
+}
+.alumini-desc{
+    margin: 15px 2px;
+    
+}

@@ -1,0 +1,46 @@
+.course-tut{
+    display: flex;
+    gap: 20px;
+}
+.tutorials{
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    /* white-space: nowrap; */
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer/Edge */
+    margin-bottom: 50px;
+}
+#web-dev-tut{
+    background-color: #fcd5ca;
+    color: black;
+}
+#ai-tut{
+    background-color: #bbedc2;
+    color: black;
+}
+#ml-tut{
+    background-color: #f8f296;
+    color: black;
+}
+.tutorials h1{
+    margin: 60px 0px 30px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+.yt-courses{
+    background-color: #4649a0;
+    border-radius: 20px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.yt-courses h4{
+    margin: 15px;
+    font-weight: bold;
+}
+.yt-courses p{
+    padding: 5px;
+    font-weight: 600;
+}
