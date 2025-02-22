@@ -10,7 +10,7 @@ import RightArrow from "../../assets/right-arrow.png";
 
 const Footer = () => {
     return(
-        <div className="footer-parent">
+        <div className="footer-parent" id="footer-trigger">
             <div className="footer">
                 <div className="left-footer">
                     <div className="info-logo">

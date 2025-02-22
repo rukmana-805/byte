@@ -4,7 +4,7 @@ import TechImg from "../../assets/tech.jpg";
 
 const Rodemap = () => {
     return(
-        <div>
+        <div id="roadmap-trigger">
             <div className="rodemap">
                 <div className="heading-rodemap"><h1>Rodemap on Technologies</h1></div>
                 <div className="courses">

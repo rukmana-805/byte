@@ -30,10 +30,12 @@
     display: flex;
     gap: 30px;
 }
-.middle ul li{
+.middle ul a{
     border-bottom: 2px solid transparent; /* Keeps space for the border */
     transition: border-color 0.2s ease-in-out;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 .right-contain {
     display: flex;

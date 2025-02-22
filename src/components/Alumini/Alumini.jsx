@@ -4,7 +4,7 @@ import Person from "../../assets/girlalumini.jpg";
 
 const Alumini = () => {
     return(
-        <div>
+        <div id="alumini-trigger">
             <div className="anumini">
                 <h1 className="alumini-heading">Alumini Connections</h1>
                 <div className="bhu-alumini">

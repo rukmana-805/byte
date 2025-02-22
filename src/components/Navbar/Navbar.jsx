@@ -15,11 +15,11 @@ const Navbar = () => {
                 </div>
                 <div className="middle">
                     <ul>
-                        <li className={active === "home" ? "active" : ""} onClick={()=>setActive("home")}>home</li>
-                        <li className={active === "roadmap" ? "active" : ""} onClick={()=>setActive("roadmap")}>roadmap </li>
-                        <li className={active === "tutorial" ? "active" : ""} onClick={()=>setActive("tutorial")}>tutorial</li>
-                        <li className={active === "alumini" ? "active" : ""} onClick={()=>setActive("alumini")}>alumini</li>
-                        <li className={active === "contact" ? "active" : ""} onClick={()=>setActive("contact")}>contact us</li>
+                        <a href="" className={active === "home" ? "active" : ""} onClick={()=>setActive("home")}>home</a>
+                        <a href="#roadmap-trigger" className={active === "roadmap" ? "active" : ""} onClick={()=>setActive("roadmap")}>roadmap </a>
+                        <a href="#tutorial-trigger" className={active === "tutorial" ? "active" : ""} onClick={()=>setActive("tutorial")}>tutorial</a>
+                        <a href="#alumini-trigger" className={active === "alumini" ? "active" : ""} onClick={()=>setActive("alumini")}>alumini</a>
+                        <a href="#footer-trigger" className={active === "contact" ? "active" : ""} onClick={()=>setActive("contact")}>contact us</a>
                     </ul>
                 </div>
                 <div className="right">

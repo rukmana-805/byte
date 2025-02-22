@@ -3,7 +3,7 @@ import "../Tutorials/Tutorials.css";
 
 const Tutorials = () => {
   return (
-    <div>
+    <div id="tutorial-trigger">
       <div className="tutorials">
         <h1>Tutorials Recomendation</h1>
         <div className="course-tut">
